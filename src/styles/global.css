@@ -1,0 +1,15 @@
+/* reset de propriedades css--boa pratica partir do zero a estilização do APP
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("src/assets/giphy4.gif");
+}
+
+body, input, button {
+    font-size: 16px;
+    font-family: 'VT323', monospace;
+
+    -webkit-font-smoothing: antialiased;
+}

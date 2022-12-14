@@ -1,0 +1,47 @@
+.card {
+    height: 70px;
+    width: 50%;
+
+    background: rgb(0, 0, 0);
+    color: white;
+
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    
+}
+
+.card strong {
+    font-size: 20px;
+}
+
+.card input {
+    height: 20px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        height: 70px;
+        width: 90%;
+    
+        background: rgb(0, 0, 0);
+        color: white;
+    
+        border-radius: 10px;
+        margin-bottom: 20px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px;
+        
+    }
+
+ }
