@@ -15,6 +15,13 @@ export function Home() {
         setProducts((prevState) => [...prevState, newProduct]);
     }
 
+    /* const resetInputField = (e) => {
+        e.preventDefault();
+        e.target.reset();
+        e.target.value = ''
+      }; */
+    
+
     return (
         <div className="container">
             <header>
@@ -34,7 +41,7 @@ export function Home() {
                 placeholder="Digite o produto..."
                 onChange={(e) => setProductName(e.target.value)}
             />
-            <button onClick={handleAddProduct} type="button">
+            <button onClick={() => { handleAddProduct(); resetInputField();}} type="button">
                 Adicionar
             </button>
 
