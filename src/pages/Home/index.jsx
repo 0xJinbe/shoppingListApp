@@ -26,7 +26,7 @@ export function Home() {
         <div className="container">
             <header>
                 <h1>
-                    LISTA DE COMPRAS <br></br>Claudio & Larissa
+                    LISTA DE COMPRAS
                 </h1>
                 <div>
                     <strong>Com ❤️ por 0xJinbe</strong>
